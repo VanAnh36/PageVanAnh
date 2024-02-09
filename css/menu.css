@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    background-image: url("https://anhdepfree.com/wp-content/uploads/2021/12/anh-nen-minions-2k_341845.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    padding-bottom: 56.25%;
+    
+}
+.buttons {
+    display: flex;
+    column-gap: 3rem;
+    padding: 2rem;
+}
+.btn-f {
+    background-image: linear-gradient(
+        to right,
+        #252bd8 0%,
+        #00aecd 51%,
+        #0216b0 100%
+    );
+}
+.btn-f {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-f {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-i {
+    background-image: linear-gradient(
+        to right,
+        #d86725 0%,
+        #cd0015 51%,
+        #b03f02 100%
+    );
+}
+.btn-i {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-i {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-p {
+    background-image: linear-gradient(
+        to right,
+        #25d8ae 0%,
+        #00cdbf 51%,
+        #02b00b 100%
+    );
+}
+.btn-p {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-p {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-v {
+    background-image: linear-gradient(
+        to right,
+        #a225d8 0%,
+        #aecd00 51%,
+        #8ab002 100%
+    );
+}
+.btn-v {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-v {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-d {
+    background-image: linear-gradient(
+        to right,
+        #d825c9 0%,
+        #cd00a7 51%,
+        #02b09c 100%
+    );
+}
+.btn-d {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-d {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-b {
+    background-image: linear-gradient(
+        to right,
+        #d825a2 0%,
+        #cd00a7 51%,
+        #b00256 100%
+    );
+}
+.btn-b {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-b {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.cover {
+    width: 240px;
+    height: 240px;
+   
+    box-shadow: 0 0 30px #eee;
+    position: absolute;
+    margin-top: 3rem;
+    left: calc(50% - 100px);
+  
+    border-radius: 120px;
+    border: 5px solid rgb(255, 17, 0);
+}
+.end{
+	color: aqua;
+	font-size: 21px;
+    width: 300px;
+		  height: 300px;
+		   position: absolute; 
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-5%,60%)
+		 
+        
+}

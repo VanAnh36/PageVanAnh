@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/png" href="./img/CILKGax.png" />
+        <!-- Tiêu đề của trang ảnh kĩ niệm -->
+        <title>Ảnh kĩ niệm</title>
+        <link rel="stylesheet" href="./css/gallery.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- Thêm phần hoa anh đào -->
+        <link rel="stylesheet" href="./css/hoaanhdao.css" />
+        <!-- ----- -->
+    </head>
+    <body>
+        <div class="buttons">
+			<a href="index.html" class="btn btn-bir">Trang Chủ</a>
+            <a href="timeline.html" class="btn btn-timeline">Lời Chúc</a>
+            <a href="gallery.html" class="btn btn-gallery">Ảnh kĩ niệm</a>
+            <a href="page.html" class="btn btn-page">Thông Tin</a>
+        </div>
+
+        <!-- 6. Thay tất cả bằng hình ảnh của bạn -->
+        <div class="gallery" id="gallery">
+            <div class="gallery-item">
+                <div class="content"><img src="Anh1.jpeg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="Anh2.jpeg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="Anh3.jpeg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="Anh5.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="Anh6.jpg" alt="" /></div>
+            </div>
+           
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
+            </div>
+        </div>
+       
+    
+        <!-- Phần nhạc -->
+        <audio id="player" autoplay loop>
+            <source src="https://cdn.glitch.global/c80993b1-4999-49e6-8c91-22694b988e4a/c8bcfffd-3ac2-4119-b062-4f3078dd8810.Co-Gai-Ay-Noi-Voi-Toi-Uu.mp3?v=1642841315016"/>type="audio/mp3" />
+        </audio>
+    </body>
+    <!-- Thêm phần hoa anh đào -->
+    <script src="./js/hoaanhdao.js" text="text/javascript"></script>
+    <!-- ----- -->
+    <script src="./js/gallery.js"></script>
+    <!-- Thêm phần hoa anh đào -->
+    <script>
+        var sakura = new Sakura('body', {
+          colors: [
+            {
+              gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+              gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+              gradientColorDegree: 120,
+            },
+            {
+              gradientColorStart: 'rgba(255,189,189)',
+              gradientColorEnd: 'rgba(227,170,181)',
+              gradientColorDegree: 120,
+            },
+            {
+              gradientColorStart: 'rgba(212,152,163)',
+              gradientColorEnd: 'rgba(242,185,196)',
+              gradientColorDegree: 120,
+            },
+          ],
+          delay: 200,
+        });
+      </script>
+      <!-- ----- -->
+</html>

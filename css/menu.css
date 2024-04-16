@@ -172,8 +172,85 @@ body {
     border-radius: 10px;
     display: block;
 }
+.btn-h {
+    background-image: linear-gradient(
+        to right,
+        #d82525 0%,
+        #cdcd00 51%,
+        #b00233 100%
+    );
+}
+.btn-h {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
 
-.btn-b {
+.btn-h {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-l {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-l {
+    background-image: linear-gradient(
+        to right,
+        #d825a2 0%,
+        #cd00a7 51%,
+        #9602b0 100%
+    );
+}
+.btn-l {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-l {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-3d {
+    background-image: linear-gradient(
+        to right,
+        #d82525 0%,
+        #cd00a7 51%,
+        #b03302 100%
+    );
+}
+.btn-3d {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-3d {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;

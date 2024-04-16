@@ -3,22 +3,21 @@
 
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Nguyễn Thị Vân Anh</title>
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
    <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
-   <link rel="stylesheet" href="./css/picture.css">
-
+   <link rel="stylesheet" href="./picture.css">
+   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-	<div style="position: absolute;top: 15px;left: 15px;height: 30px;width: 500px;" id="playAudio">
-		<audio controls autoplay loop><source src="https://cdn.glitch.global/8d1e64bd-fc49-43af-9f00-8db3a490f68f/y2mate.com%20-%20LyricsVietsub%20Love%20Yourself%20%20Justin%20Bieber.mp3?v=1676982594541"></audio>
-  </div>
+	
   
    <div class="options">
-      <div class="option active" style="--optionBackground:url('Anh3.jpeg');">
+      <div class="option active" style="--optionBackground:url('./Anh1.jpeg');">
          <div class="shadow"></div>
          <div class="label">
             <div class="icon">
@@ -29,7 +28,7 @@
             </div>
          </div>
       </div>
-      <div class="option" style="--optionBackground:url(./Anh2.jpeg);">
+      <div class="option" style="--optionBackground:url('./Anh2.jpeg');">
          <div class="shadow"></div>
          <div class="label">
             <div class="icon">
@@ -39,7 +38,7 @@
             </div>
          </div>
       </div>
-      <div class="option" style="--optionBackground:url(./Anh3.jpeg);">
+      <div class="option" style="--optionBackground:url('./Anh3.jpeg');">
          <div class="shadow"></div>
          <div class="label">
             <div class="icon">
@@ -50,7 +49,7 @@
             </div>
          </div>
       </div>
-      <div class="option" style="--optionBackground:url(./Anh5.jpg);">
+      <div class="option" style="--optionBackground:url('./Anh5.jpg');">
          <div class="shadow"></div>
          <div class="label">
             <div class="icon">
@@ -61,11 +60,11 @@
             </div>
          </div>
       </div>
-      <div class="option" style="--optionBackground:url(./Anh6.jpg);">
+      <div class="option" style="--optionBackground:url('./Anh6.jpg');">
          <div class="shadow"></div>
          <div class="label">
             <div class="icon">
-               <img src="Anh6.jpg" />
+               <img src="./Anh6.jpg" />
             </div>
             <div class="info">
             
@@ -73,7 +72,11 @@
          </div>
       </div>
    </div>
+   <audio id="player" autoplay loop>
+      <source src="https://cdn.glitch.global/8d1e64bd-fc49-43af-9f00-8db3a490f68f/y2mate.com%20-%20LyricsVietsub%20Love%20Yourself%20%20Justin%20Bieber.mp3?v=1676982594541"/>type="audio/mp3" />
+  </audio>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
    <script src="./js/picture.js"></script>
 
 </body>

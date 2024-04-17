@@ -26,7 +26,7 @@ main {
 
 body {
 	margin: 0;
-    background-image: url("https://media.istockphoto.com/id/1288526180/vi/anh/n%E1%BB%81n-tr%E1%BA%AFng-tr%E1%BB%ABu-t%C6%B0%E1%BB%A3ng-4k.jpg?s=170667a&w=0&k=20&c=a5BgSJ0Wk22ks_gfxcpncgQbCNudnya214SigbxCMgo=");
+    background-image: url("https://anhdephd.vn/wp-content/uploads/2022/04/hinh-nen-4k-mau-vang-dieu-da-cho-laptop-dell-3840x2160p.jpg");
 	--color-text: #d05400;
     --color-bg: #0c0c0c;
     --color-link: #376b42;
@@ -40,6 +40,7 @@ body {
 	font-family: bilo, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	
 }
 
 .demo-2 {

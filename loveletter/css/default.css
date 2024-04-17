@@ -1,11 +1,15 @@
 ﻿body {
-    margin: 0;
-    padding: 0;
-    background: #ffe;
+    /* margin: 0;
+    padding: 0; */
+    background-image: url("https://i.pinimg.com/originals/c6/54/62/c654622919bc26d05726715da1bba6ee.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-size: 14px; /* Tăng kích thước phông chữ chính */
-    font-family: Arial, sans-serif; /* Thay đổi phông chữ chính */
+    font-family: cursive;
     color: #333; /* Màu văn bản */
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 #mainDiv {
@@ -33,7 +37,7 @@
 }
 
 #words {
-    font-family: "Helvetica", Arial, sans-serif; /* Thay đổi phông chữ cho văn bản chính */
+    font-family: "sans-serif", "sans-serif", sans-serif;
     width: 500px;
     font-size: 26px; /* Tăng kích thước phông chữ */
     color: #444; /* Màu văn bản */
@@ -55,14 +59,14 @@
     margin-right: 120px;
     text-align: right;
     display: none;
-    color: #555; /* Màu văn bản */
+    color: #555555; /* Màu văn bản */
 }
 
 #loveu .signature {
     margin-top: 10px;
     font-size: 20px;
     font-style: italic;
-    color: #777; /* Màu văn bản */
+    color: #777777; /* Màu văn bản */
 }
 
 #clickSound {
@@ -70,34 +74,27 @@
 }
 
 #code {
+    /* float: left;
+    width: 440px;
+    height: 400px;
+    color: #333333;
+    font-family: "sans-serif", "sans-serif", sans-serif;
+    font-size: 14px; Tăng kích thước phông chữ */
     float: left;
     width: 440px;
     height: 400px;
-    color: #333;
-    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-    font-size: 14px; /* Tăng kích thước phông chữ */
-}
-
-#code .string {
-    color: #2a36ff;
-}
-
-#code .keyword {
-    color: #7f0055;
+    color: #004080; /* Chỉnh màu chữ thành màu xanh trời */
+    font-family: "digit";
+    font-size: 20px; /* Tăng kích thước phông chữ */
     font-weight: bold;
 }
+
 
 #code .placeholder {
     margin-left: 15px;
 }
 
-#code .space {
-    margin-left: 7px;
-}
 
-#code .comments {
-    color: #3f7f5f;
-}
 
 #errorMsg {
     width: 100%;
